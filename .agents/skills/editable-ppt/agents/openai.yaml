@@ -1,0 +1,6 @@
+interface:
+  display_name: "Editable PPT"
+  short_description: "重构、审查并持续迭代可编辑 PPT"
+  default_prompt: "Use $editable-ppt to process the uploaded PPT or image and continue from the active project context."
+policy:
+  allow_implicit_invocation: true

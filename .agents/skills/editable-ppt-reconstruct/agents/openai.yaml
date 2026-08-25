@@ -1,0 +1,6 @@
+interface:
+  display_name: "Editable PPT Reconstruct"
+  short_description: "内部对象级 PPT 与图片重构能力"
+  default_prompt: "Use $editable-ppt-reconstruct to rebuild the supplied pages as object-editable PowerPoint."
+policy:
+  allow_implicit_invocation: false

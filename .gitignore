@@ -1,0 +1,32 @@
+# User documents and generated presentation artifacts
+*.ppt
+*.pptx
+*.pdf
+*.bmp
+*.tif
+*.tiff
+*.inspect.ndjson
+
+# Runtime project state and outputs
+.editable-ppt/
+projects/
+runs/
+output/
+outputs/
+rendered/
+comparisons/
+.skill_suite_build/
+
+# Python and Node caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+
+# Local tooling and OS files
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+

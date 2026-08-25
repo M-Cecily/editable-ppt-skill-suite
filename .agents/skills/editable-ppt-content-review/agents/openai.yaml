@@ -1,0 +1,6 @@
+interface:
+  display_name: "Editable PPT Content Review"
+  short_description: "内部论文相关性与演示内容证据审查"
+  default_prompt: "Use $editable-ppt-content-review to review the active deck against the uploaded literature."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Editable PPT Pipeline"
+  short_description: "内部项目路由、状态管理与质量闸门"
+  default_prompt: "Use $editable-ppt-pipeline to route and resume this editable-PPT project."
+policy:
+  allow_implicit_invocation: false

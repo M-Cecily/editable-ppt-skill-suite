@@ -1,0 +1,6 @@
+interface:
+  display_name: "Editable PPT Iterate"
+  short_description: "内部三版本生成与连续迭代能力"
+  default_prompt: "Use $editable-ppt-iterate to apply the active review plan and generate the next editable A/B/C round."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Editable PPT design signature",
+  "type": "object",
+  "required": ["version_id", "round", "layout_strategy", "narrative_strategy", "visual_grammar", "chart_strategy", "content_density", "reading_path", "page_split_merge", "retained_elements", "major_changes"],
+  "properties": {
+    "version_id": {"type": "string", "minLength": 1},
+    "round": {"type": "integer", "minimum": 1},
+    "layout_strategy": {"type": "string", "minLength": 1},
+    "narrative_strategy": {"type": "string", "minLength": 1},
+    "visual_grammar": {"type": "string", "minLength": 1},
+    "chart_strategy": {"type": "string", "minLength": 1},
+    "content_density": {"type": "string", "minLength": 1},
+    "reading_path": {"type": "string", "minLength": 1},
+    "page_split_merge": {"type": "string", "minLength": 1},
+    "retained_elements": {"type": "array", "items": {"type": "string"}},
+    "major_changes": {"type": "array", "items": {"type": "string"}}
+  }
+}
+
